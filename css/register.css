@@ -1,0 +1,34 @@
+#container_center{
+    width: 1200px;
+    height: 100vh;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+/* header */
+header{
+    height: 10%;
+    padding: 15px;
+    border-bottom: 3px solid red;
+}
+
+
+/* session */
+session{
+    height: 80%;
+    margin-top: 15px;
+    border: 1px solid gray;
+}
+
+
+
+/* footer */
+footer{
+    height: 10%;
+}
+
+footer p{
+    text-align: center;
+}
