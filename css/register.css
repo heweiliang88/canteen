@@ -5,30 +5,177 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* header */
 header{
-    height: 10%;
-    padding: 15px;
-    border-bottom: 3px solid red;
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+.logo{
+    padding-top: 15px;
 }
 
 
 /* session */
 session{
-    height: 80%;
-    margin-top: 15px;
-    border: 1px solid gray;
+    height: 520px;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
 }
 
+#form_title{
+    height: 40px;
+    border-bottom: 1px solid #cccccc;
+    line-height: 40px;
+    background: #ececec;
+    color: #666666;
+} 
+
+#form_title h3{
+    padding: 0 10px;
+    font-weight: 18px;
+    float: left;
+}
+
+#form_title #login{
+    float: right;
+    margin-right: 10px;
+}
+
+#form_title #login a{
+    color: #C81623;
+}
+
+#form_box{
+    width: 600px;
+    height: 400px;
+    margin: 40px auto 0;
+    color: #666666;
+}
+
+#form_box li{
+    margin-bottom: 15px;
+}
+
+#form_box label{
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #929191;
+}
+
+#form_box li .inp{
+    width: 238px;
+    height: 34px;
+    border: 1px solid #cccccc;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 16p
+}
+
+
+#form_box li .success,#form_box li .error{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+#form_box li .success{
+    color: #40b83f;
+}
+
+#form_box li .error{
+    color: #DF3033;
+}
+
+#form_box li  .success_icon,#form_box li  .error_icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/success.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+#form_box li .error_icon{
+    background: url(../img/error.png) no-repeat;
+}
+
+#form_box .safe{
+    padding-left: 187px;
+    color: #b2b2b2;
+    font-size: 12px;
+}
+
+#form_box .safe em{
+    padding: 0 12px;
+    color: #ffffff;
+}
+
+#form_box .safe .ruo{
+    background-color: #de1111;
+}
+
+#form_box .safe .zhong{
+    background-color: #40b83f;
+}
+
+#form_box .safe .qiang{
+    background-color: #f79100;
+}
+
+
+#form_box .agree{
+    padding: 20px 0 0 100px;
+    font-size: 12px;
+   
+}
+
+#form_box .agree input{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+
+#form_box .agree span{
+    margin-bottom: 10px;
+}
+
+#form_box .agree span a{
+    color: #1ba1e6;
+}
+
+
+#form_box .loginbtn{
+    width: 200px;
+    height: 35px;
+    background-color: #c81623;
+    margin:30px 0 0 130px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
 
 
 /* footer */
 footer{
-    height: 10%;
+    height: 120px;
+    font-size:12px;
+    color: #666666;
+    text-align: center;
+
 }
 
-footer p{
-    text-align: center;
+footer .link{
+    margin-top: 20px;
+    height: 30px;
+}
+
+footer .copyright{
+    line-height: 20px;
 }
